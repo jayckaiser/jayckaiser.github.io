@@ -748,6 +748,10 @@ ul#myList {
 li.aitsaitsresumewthreeli-1 {
 	margin-bottom: 50px;
 }
+li.portfoliothree {
+	margin-bottom: 50px;
+}
+
 /*-- Work --*/
 .work-left {
 	text-align: right;
@@ -1767,7 +1771,7 @@ textarea {
 		right: 49%;
 	}
 	.work-left2 {
-		height: 126px;
+		height: 185px;
 	}
 	.work-right.work-right2 {
 		min-height: 50px;
@@ -1895,7 +1899,7 @@ textarea {
 		height: 135px;
 	}
 	.work-left2 {
-		height: 135px;
+		height: 185px;
 	}
 }
 @media(max-width: 384px){
@@ -2002,6 +2006,9 @@ textarea {
 	}
 	.work-info .work-right2 h4 {
 		margin-left: 181px;
+	}
+	.work-info .templatemo_col12 portfolio-item{
+		
 	}
 	h5.univ {
 		right: 8.6% !important;
@@ -2245,3 +2252,73 @@ textarea {
 
 /*-- //responsive-ends-here --*/
 
+.templatemo_portfolio {
+	padding: 80px 0px;
+	text-align: center;
+}
+
+.templatemo_portfolio p { padding-bottom: 50px; }
+
+.portfolio-thumb { overflow: hidden; position: relative; }
+
+.portfolio-thumb img { width: 100%; height: auto; }
+
+.portfolio-thumb .overlay-p { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: #009999; visibility: hidden; opacity: 0; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
+
+.portfolio-thumb .overlay-p a { position: absolute; top: 10%; margin-top: -12px; left: 10%; width: 80%; margin-left: -15px; color: white; text-align: center; }
+.portfolio-thumb .overlay-p a ul { text-align: center; margin-top:0.1em;}
+.portfolio-thumb .overlay-p a ul li	{ padding: 0.2em 0em; margin: 0px; width: 100%; list-style: none;}
+.portfolio-thumb .overlay-p a ul li.fsmall{ font-size: 0.7em; }
+
+.portfolio-item { margin-bottom: 40px; overflow: hidden; }
+.portfolio-item:hover .overlay-p { visibility: visible; opacity: 1; }
+
+.portfolio-title { width: 100%; text-align: center; }
+.portfolio-title a { color: #009999; font-size: 18px; text-transform: uppercase; }
+
+.templatemo_portfolio {
+	padding: 80px 0px;
+	text-align: center;
+}
+
+.templatemo_portfolio p { padding-bottom: 50px; }
+
+.portfolio-thumb { overflow: hidden; position: relative; }
+
+.portfolio-thumb img { width: 100%; height: auto; }
+
+.portfolio-thumb .overlay-p { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: #009999; visibility: hidden; opacity: 0; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
+
+.portfolio-thumb .overlay-p a { position: absolute; top: 10%; margin-top: -12px; left: 10%; width: 80%; margin-left: -15px; color: white; text-align: center; }
+.portfolio-thumb .overlay-p a ul { text-align: center; margin-top:0.1em;}
+.portfolio-thumb .overlay-p a ul li	{ padding: 0.2em 0em; margin: 0px; width: 100%; list-style: none;}
+.portfolio-thumb .overlay-p a ul li.fsmall{ font-size: 0.7em; }
+
+.portfolio-item { margin-bottom: 40px; overflow: hidden; }
+.portfolio-item:hover .overlay-p { visibility: visible; opacity: 1; }
+
+.portfolio-title { width: 100%; text-align: center; }
+.portfolio-title a { color: #009999; font-size: 18px; text-transform: uppercase; }
+.templatemo_portfolio {
+	padding: 80px 0px;
+	text-align: center;
+}
+
+.templatemo_portfolio p { padding-bottom: 50px; }
+
+.portfolio-thumb { overflow: hidden; position: relative; }
+
+.portfolio-thumb img { width: 100%; height: auto; }
+
+.portfolio-thumb .overlay-p { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: #009999; visibility: hidden; opacity: 0; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out;  }
+
+.portfolio-thumb .overlay-p a { position: absolute; top: 10%; margin-top: -12px; left: 10%; width: 80%; margin-left: 0px; color: white; text-align: center; }
+.portfolio-thumb .overlay-p a ul { text-align: center; margin-top:0.1em;}
+.portfolio-thumb .overlay-p a ul li	{ padding: 0.2em 0em; margin: 0px; width: 100%; list-style: none;}
+.portfolio-thumb .overlay-p a ul li.fsmall{ font-size: 0.7em; }
+
+.portfolio-item { margin-bottom: 40px; overflow: hidden; }
+.portfolio-item:hover .overlay-p { visibility: visible; opacity: 1; }
+
+.portfolio-title { width: 100%; text-align: center; }
+.portfolio-title a { color: #009999; font-size: 18px; text-transform: uppercase; }
